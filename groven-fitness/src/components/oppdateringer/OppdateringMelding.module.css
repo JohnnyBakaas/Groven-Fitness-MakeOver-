@@ -1,0 +1,11 @@
+.card {
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 20px;
+  height: 400px;
+}
+
+.tittel {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

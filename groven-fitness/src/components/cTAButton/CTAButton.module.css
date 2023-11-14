@@ -1,0 +1,25 @@
+.humongous {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 0;
+  background-color: var(--primary-color);
+  width: 100%;
+  transition: background-color 0.4s;
+  text-align: center;
+}
+
+.humongous:hover {
+  background-color: black;
+}
+
+.humongous h1 {
+  text-align: center;
+}
+
+.notBig {
+  padding: 10px;
+  border: 0;
+  background-color: var(--primary-color);
+  transition: background-color 0.4s;
+  text-align: center;
+}

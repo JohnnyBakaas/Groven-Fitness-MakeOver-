@@ -1,0 +1,28 @@
+.backgroundImage {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.231),
+      rgba(0, 0, 0, 0.653),
+      rgba(0, 0, 0, 0.824),
+      rgb(0, 0, 0)
+    ),
+    url("https://grovenfitness.no/____impro/1/onewebmedia/151348468_1943579545780563_7007836702171850442_n___serialized1.jpg?etag=%223ebc8-612e5ef4%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=605%2B454&quality=85");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.imageTextH1 {
+  margin-bottom: 40px;
+}
+
+.imageTextH2 {
+  margin-bottom: 60px;
+  max-width: 1200px;
+  text-align: center;
+}

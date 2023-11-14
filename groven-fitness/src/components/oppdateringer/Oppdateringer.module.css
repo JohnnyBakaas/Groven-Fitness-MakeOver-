@@ -1,0 +1,12 @@
+.newsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spacer {
+  min-width: var(--spacer-width);
+}
+
+.spacer:last-child {
+  min-width: 0px;
+}

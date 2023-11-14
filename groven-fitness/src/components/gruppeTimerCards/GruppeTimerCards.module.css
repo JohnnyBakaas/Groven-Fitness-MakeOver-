@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.baa {
+  background-image: url("/src/assets/grovenFitnesSenterBoOppeSmal.jpg");
+  background-position: left;
+}
+
+.fyresdal {
+  background-image: url("/src/assets/fyresdalTreningsSenter.jpg");
+  background-position: right;
+}
+
+.card:hover {
+  width: 64%;
+}
+
+.card {
+  width: 50%;
+  height: 400px;
+  background-repeat: no-repeat;
+  transition: width 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

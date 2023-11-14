@@ -1,0 +1,61 @@
+.wrapper {
+  background-color: var(--primary-color);
+  width: calc(50% - 7.5px);
+  margin-bottom: var(--spacer-width);
+  aspect-ratio: 1.618/1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.wrapper h1 {
+  transition: background-color 0.4s;
+  z-index: 2;
+  padding: 10px;
+}
+
+.wrapper::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.216);
+  z-index: 1;
+  transition: background-color 0.4s;
+}
+
+.wrapper:hover::after {
+  background: rgba(0, 0, 0, 0.505);
+}
+
+.wrapper:hover h1 {
+  background-color: var(--primary-color);
+}
+
+.PT {
+  background-position: 0 70%;
+  background-image: url("/src/assets/PTBildeFraIG.JPG");
+}
+
+.fysioterapeut {
+  background-image: url("https://grovenfitness.no/____impro/1/onewebmedia/shutterstock_286003427.jpg?etag=%225a090f-63ac0c0c%22&sourceContentType=&ignoreAspectRatio&resize=1949%2B1185&extract=21%2B0%2B1779%2B1185");
+}
+
+.kurskatalog {
+  background-image: url("https://grovenfitness.no/____impro/1/onewebmedia/shutterstock_244733887.jpg?etag=%227eab88-63caa91b%22&sourceContentType=&ignoreAspectRatio&resize=1803%2B1203");
+}
+
+.lokaler {
+  background-image: url("/src/assets/veldigMidlertidigBildeForVåreLokaler.JPG");
+}
