@@ -10,3 +10,9 @@
 .spacer:last-child {
   min-width: 0px;
 }
+
+@media (max-width: 1100px) {
+  .newsWrapper {
+    flex-direction: column;
+  }
+}

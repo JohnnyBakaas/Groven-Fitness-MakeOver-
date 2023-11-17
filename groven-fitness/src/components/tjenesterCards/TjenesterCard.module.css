@@ -59,3 +59,13 @@
 .lokaler {
   background-image: url("/src/assets/veldigMidlertidigBildeForVåreLokaler.JPG");
 }
+
+@media (max-width: 1100px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .wrapper h1 {
+    text-align: center;
+  }
+}

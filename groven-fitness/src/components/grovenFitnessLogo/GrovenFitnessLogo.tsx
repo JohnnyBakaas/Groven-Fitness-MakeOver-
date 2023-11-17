@@ -28,7 +28,7 @@ const GrovenFitnessLogo = ({
             }
           : {
               backgroundImage: `url(${logo})`,
-              height: `${100}px`,
+              height: `${90}px`,
               aspectRatio: 848 / 322,
             }
       }

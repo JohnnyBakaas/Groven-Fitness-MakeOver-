@@ -19,7 +19,7 @@ const Hjem = () => {
         <VektPakker />
       </Carousel>
       <div style={{ paddingBottom: "30px" }} />
-      <div style={{ display: "flex" }}>
+      <div className={styles.buttonWrapper}>
         <a
           style={{ width: "100%" }}
           href="https://portal.boostsystem.no/grovenfitness/member"
@@ -54,4 +54,13 @@ Våre lokaler
 PT
 Fysio
 Kurskatalog
+*/
+
+/*
+a   i   a
+b  hj  a
+c g a a
+df  aa
+e   a
+
 */

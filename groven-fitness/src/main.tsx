@@ -7,6 +7,7 @@ import ErrorPage from "./routes/errorPage/ErrorPage";
 import OmOss from "./routes/omOss/OmOss";
 import PersonligTrener from "./routes/personligTrener/PersonligTrener";
 import Hjem from "./routes/hjem/Hjem";
+import ScrollToTop from "./ScrollToTop";
 
 const router = createBrowserRouter([
   {
