@@ -16,3 +16,9 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 420px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}

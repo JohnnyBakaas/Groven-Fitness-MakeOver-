@@ -4,12 +4,22 @@ import logo from "../../assets/grovenFitnessLogo.png";
 type GrovenFitnessLogoProps = {
   logoHeight?: number;
   logoWidth?: number;
+  isHeader?: boolean;
 };
 
 const GrovenFitnessLogo = ({
   logoHeight,
   logoWidth,
+  isHeader,
 }: GrovenFitnessLogoProps) => {
+  if (isHeader)
+    return (
+      <div
+        className={[styles.logo, styles.headerLogo].join(" ")}
+        style={{ backgroundImage: `url(${logo})` }}
+      />
+    );
+
   return (
     <div
       className={styles.logo}

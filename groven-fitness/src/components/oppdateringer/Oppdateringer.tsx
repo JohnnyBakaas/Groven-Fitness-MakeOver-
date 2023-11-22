@@ -18,8 +18,16 @@ const OppdateringerMeldinger: OppdateringMeldingProps[] = [
     ),
   },
   {
-    tittel:
-      "Visste du at hos oss kan du leie sal og trener for bursdag/teambuilding/annet arrangement?",
+    tittel: (
+      <>
+        Visste du at hos oss kan du leie sal og trener for bursdag/
+        <wbr />
+        teambuilding/
+        <wbr />
+        annet arrangement?
+      </>
+    ),
+
     dato: "09.08.23",
     message:
       "Vi tilbyr blant annet utleie av sal med coach for din begivenhet -1500,- per time.",

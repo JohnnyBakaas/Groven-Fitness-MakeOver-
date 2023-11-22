@@ -2,7 +2,7 @@ import { ReactNode, useState } from "react";
 import styles from "./OppdateringMelding.module.css";
 
 export type OppdateringMeldingProps = {
-  tittel: string;
+  tittel: string | ReactNode;
   dato: string;
   message?: string;
   messageNode?: ReactNode;

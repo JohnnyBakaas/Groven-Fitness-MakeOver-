@@ -42,7 +42,7 @@ const Header = () => {
             className={styles.logoFixer}
             onClick={() => setShowNav(false)}
           >
-            <GrovenFitnessLogo />
+            <GrovenFitnessLogo isHeader />
           </NavLink>
           <button
             className={styles.togleButton}
